@@ -1039,7 +1039,7 @@ Resume Timeline
         '
 }
 .coursework-content{
-    padding:5px 20px 10px 20px;
+    padding:5px 20px 0 20px;
 }
 .coursework-content{
     position: relative;
@@ -1056,7 +1056,7 @@ Resume Timeline
     width: 100%;
     position: absolute;
     content: "";
-    bottom: -3px;
+    bottom: 3px;
     height:10px;
     left: 0;
     z-index: -1;
