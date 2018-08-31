@@ -608,6 +608,12 @@ SOCIAL ICON
     position: relative;
     min-height: 500px;
 }
+.technology-picture-section{
+    background: url(../images/collage.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    min-height: 500px;
+}
 
 
 
