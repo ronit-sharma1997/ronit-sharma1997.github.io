@@ -608,13 +608,12 @@ SOCIAL ICON
     position: relative;
     min-height: 500px;
 }
-.technology-picture-section{
-    background: url(../images/collage.jpg) no-repeat center center;
+.technology-picture-section {
+    background: url(../../assets/images/collage.jpg) no-repeat top center #68C3A3;
+    background-attachment: fixed;
     background-size: cover;
-    position: relative;
-    min-height: 500px;
+    color: #fff;  
 }
-
 
 
 /* === Resume Section === */
