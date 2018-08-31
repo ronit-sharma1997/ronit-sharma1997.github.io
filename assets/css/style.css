@@ -1077,6 +1077,58 @@ Resume Timeline
     padding-left: 5px;
     min-height: 235px;
 }
+.portfolio-bg{
+   background: #fff;
+   padding: 5px;
+   margin-bottom: 20px;
+   border: 1px solid #eee;
+   border-bottom: 3px double #eee;
+}
+
+
+.portfolio {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-info,
+.links,
+.links a i,
+.links a i::after,
+.tt-overlay {
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    -o-transition: all 400ms;
+    transition: all 400ms;
+}
+.portfolio-info {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    background-color: #68c3a3;
+    color: #fff;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio:hover .tt-overlay, 
+.portfolio:hover .links {
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.portfolio:hover .portfolio-info{
+    bottom: 0;
+}
+.portfolio-info h3 {
+    font-size: 14px;
+    line-height: 45px;
+    font-weight: 700;
+    margin: 0;
+}
 
 
 /* Shuffle Filter*/
