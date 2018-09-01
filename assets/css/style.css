@@ -1129,7 +1129,7 @@ Resume Timeline
 .links a i::after{
     position: absolute;
     content: "";
-    left: -20px;
+    left: -7px;
     top: -7px;
     width: 30px;
     height: 30px;
